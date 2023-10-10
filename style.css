@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    position: relative;
+    left: 400px;
+}
+.row p{
+    top: 5px;
+    right: 200px;
+    position:relative;
+    font-size: 30px;
+    
+
+}
+.container.row{
+    justify-content: space-between;
+
+
+}
+.row input{
+    top: -15px;
+    left: 40px;
+    position: relative;
+    justify-content: center;
+}
+
+.row button{
+    left: 200px;
+    position: relative;
+    top: -15px;
+    color: aliceblue;
+    background-color:rgb(0, 115, 255) 
+}
+.cadre{
+    border: 3px solid black;
+    height: 200px;
+    width: 400px;
+    top: 100px;
+    position: relative;
+    left: 400px;
+}
+.cadre2{
+    border: 3px solid black;
+    height: 200px;
+    width: 400px;
+    top: 200px;
+    position: relative;
+    left: 400px;
+}
+
+.cadre3{
+    border: 3px solid black;
+    height: 150px;
+    width: 300px;
+    top: -310px;
+    position: relative;
+    left: 900px;
+}
+.cadre .mot1{
+    font-size: 30px;
+    left: 20px;
+    position: relative;
+}
+.cadre .mot2{
+    font-style: italic;
+    left: 20px;
+    position: relative;
+}
+.cadre .mot3{
+    left: 20px;
+    position: relative;
+}
+.cadre .btn{
+    left: 20px;
+    position: relative;
+    background-color: darkgoldenrod;
+}
+
+.cadre2 .mot1{
+    font-size: 30px;
+    left: 20px;
+    position: relative;
+}
+.cadre2 .mot2{
+    font-style: italic;
+    left: 20px;
+    position: relative;
+}
+.cadre2 .mot3{
+    left: 20px;
+    position: relative;
+}
+.cadre2 .btn{
+    left: 20px;
+    position: relative;
+    background-color: darkgoldenrod;
+}
+.cadre3 .mot1{
+    font-size: 40px;
+    left: 20px;
+    position: relative;
+    top: 10px;
+}
+.cadre3 .btn{
+    background-color:rgb(45, 181, 127) ;
+    left: 90px;
+    position: relative;
+    top: 20px;
+}
+.cadre .mot4{
+    text-align: center;
+    bottom: 70px;
+    position: relative;
+    left: 70px;
+    font-size:20px;
+}
